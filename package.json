@@ -29,7 +29,7 @@
       "chrome": {
         "dir": "src",
         "repository": {
-          "url": "https://git-codecommit.us-west-2.amazonaws.com/v1/repos/chromium"
+          "url": "ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/chromium"
         },
         "custom_deps": {
           "src/third_party/WebKit/LayoutTests": "%None%",
