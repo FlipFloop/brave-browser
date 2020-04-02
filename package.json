@@ -28,8 +28,9 @@
     "projects": {
       "chrome": {
         "dir": "src",
+        "branch": "81.0.4044.83",
         "repository": {
-          "url": "ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/chromium-81.0.4044.69"
+          "url": "https://github.com/brave/chromium-releases.git"
         },
         "custom_deps": {
           "src/third_party/WebKit/LayoutTests": "%None%",
